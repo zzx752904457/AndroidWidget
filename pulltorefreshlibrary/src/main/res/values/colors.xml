@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="text_white_shadow_color">#ff5a9487</color>
+    <color name="white">#ffffffff</color>
+    <color name="grey">#ffdddddd</color>
+    <color name="tools_box_bg">#ff333332</color>
+    <color name="red">#ff0000</color>
+    <color name="text_black_light">#ff000000</color>
+    <color name="green">#00ff00</color>
+    <color name="blue">#0000ff</color>
+    <color name="yellow">#00ffff</color>
+    <color name="title_bg">#cde6e8</color>
+    <color name="title_color">#307a97</color>
+    <color name="dark">#FF222222</color>
+ <!-- 暗色 -->
+    <color name="light">#FFEEEEEE</color>
+ <!-- 亮色 -->
+
+    <color name="bg">#FF70A7F9</color>
+    <color name="l_line_color1">#e7e8e9</color>
+    <color name="l_line_color2">#F2F6FA</color>
+    <color name="y_text_color">#C1C9D9</color>
+    <color name="bg3">#68CEA2</color>
+    <color name="bg4">#C9D0DE</color>
+    <color name="bg5">#7B848C</color>
+    <color name="z_line_color">#68CEA2</color>
+    <color name="h_line_color">#F5F8FD</color>
+    <color name="x_line_color">#F4F6F8</color>
+    <color name="detail_fund_text">#333333</color>
+
+</resources>
