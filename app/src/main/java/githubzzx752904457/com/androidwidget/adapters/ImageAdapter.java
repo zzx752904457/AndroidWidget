@@ -1,4 +1,4 @@
-package githubzzx752904457.com.automoveimageview.adapters;
+package githubzzx752904457.com.androidwidget.adapters;
 
 import android.content.Context;
 import android.view.View;
@@ -6,7 +6,8 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.ImageView;
 
-import githubzzx752904457.com.automoveimageview.R;
+import githubzzx752904457.com.androidwidget.R;
+
 
 /**
  * Created by admin on 2016/8/9.

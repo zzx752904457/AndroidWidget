@@ -1,4 +1,4 @@
-package githubzzx752904457.com.automoveimageview.activities;
+package githubzzx752904457.com.androidwidget.activities;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -19,8 +19,8 @@ import com.handmark.pulltorefresh.library.PullToRefreshGridView;
 import java.util.ArrayList;
 import java.util.List;
 
-import githubzzx752904457.com.automoveimageview.R;
-import githubzzx752904457.com.automoveimageview.bean.DataBean;
+import githubzzx752904457.com.androidwidget.R;
+import githubzzx752904457.com.androidwidget.bean.DataBean;
 
 public class ViewSwitcherActivity extends AppCompatActivity implements GestureDetector.OnGestureListener,View.OnTouchListener{
     //显示每屏的应用程序数

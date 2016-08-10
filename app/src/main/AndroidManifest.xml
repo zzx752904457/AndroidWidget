@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="githubzzx752904457.com.automoveimageview">
+    package="githubzzx752904457.com.androidwidget">
+
+    <uses-permission android:name="android.permission.FLASHLIGHT"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/welcome_2"
+        android:icon="@mipmap/make"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
@@ -17,9 +20,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".Main2Activity"
-            android:screenOrientation="portrait" />
         <activity android:name=".activities.TextViewActivity" />
         <activity android:name=".activities.AnalogAndTextClockActivity" />
         <activity android:name=".activities.AdapterViewFlipperActivity" />
@@ -30,7 +30,8 @@
         <activity android:name=".activities.DatePickerActivity" />
         <activity android:name=".activities.TimePickerActivity" />
         <activity android:name=".activities.NumberPickerActivity" />
-        <activity android:name=".activities.SearchViewActivity"></activity>
+        <activity android:name=".activities.SearchViewActivity" />
+        <activity android:name=".activities.NotificationActivity"></activity>
     </application>
 
 </manifest>

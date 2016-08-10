@@ -1,4 +1,4 @@
-package githubzzx752904457.com.automoveimageview;
+package githubzzx752904457.com.androidwidget;
 
 import android.content.Context;
 import android.content.Intent;
@@ -10,18 +10,19 @@ import android.widget.GridView;
 import java.util.ArrayList;
 import java.util.List;
 
-import githubzzx752904457.com.automoveimageview.activities.AdapterViewFlipperActivity;
-import githubzzx752904457.com.automoveimageview.activities.AnalogAndTextClockActivity;
-import githubzzx752904457.com.automoveimageview.activities.CalendarViewActivity;
-import githubzzx752904457.com.automoveimageview.activities.DatePickerActivity;
-import githubzzx752904457.com.automoveimageview.activities.NumberPickerActivity;
-import githubzzx752904457.com.automoveimageview.activities.SearchViewActivity;
-import githubzzx752904457.com.automoveimageview.activities.SeekBarAndRatingBarActivity;
-import githubzzx752904457.com.automoveimageview.activities.StackViewActivity;
-import githubzzx752904457.com.automoveimageview.activities.TextViewActivity;
-import githubzzx752904457.com.automoveimageview.activities.TimePickerActivity;
-import githubzzx752904457.com.automoveimageview.activities.ViewSwitcherActivity;
-import githubzzx752904457.com.automoveimageview.adapters.MainAdapter;
+import githubzzx752904457.com.androidwidget.activities.AdapterViewFlipperActivity;
+import githubzzx752904457.com.androidwidget.activities.AnalogAndTextClockActivity;
+import githubzzx752904457.com.androidwidget.activities.CalendarViewActivity;
+import githubzzx752904457.com.androidwidget.activities.DatePickerActivity;
+import githubzzx752904457.com.androidwidget.activities.NotificationActivity;
+import githubzzx752904457.com.androidwidget.activities.NumberPickerActivity;
+import githubzzx752904457.com.androidwidget.activities.SearchViewActivity;
+import githubzzx752904457.com.androidwidget.activities.SeekBarAndRatingBarActivity;
+import githubzzx752904457.com.androidwidget.activities.StackViewActivity;
+import githubzzx752904457.com.androidwidget.activities.TextViewActivity;
+import githubzzx752904457.com.androidwidget.activities.TimePickerActivity;
+import githubzzx752904457.com.androidwidget.activities.ViewSwitcherActivity;
+import githubzzx752904457.com.androidwidget.adapters.MainAdapter;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -95,6 +96,10 @@ public class MainActivity extends AppCompatActivity {
                         intent = new Intent(getContext(), SearchViewActivity.class);
                         startActivity(intent);
                         break;
+                    case 11:
+                        intent = new Intent(getContext(), NotificationActivity.class);
+                        startActivity(intent);
+                        break;
                 }
             }
         });
@@ -113,6 +118,7 @@ public class MainActivity extends AppCompatActivity {
         resList.add("TimePicker");
         resList.add("NumberPicker");
         resList.add("SearchView");
+        resList.add("Notification");
     }
 
     private Context getContext(){

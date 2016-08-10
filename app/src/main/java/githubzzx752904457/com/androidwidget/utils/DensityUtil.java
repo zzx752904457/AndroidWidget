@@ -1,4 +1,4 @@
-package githubzzx752904457.com.automoveimageview.utils;
+package githubzzx752904457.com.androidwidget.utils;
 
 import android.content.Context;
 import android.util.DisplayMetrics;
@@ -6,7 +6,7 @@ import android.util.TypedValue;
 import android.view.View;
 import android.view.WindowManager;
 
-import githubzzx752904457.com.automoveimageview.application.MyApplication;
+import githubzzx752904457.com.androidwidget.application.MyApplication;
 
 
 public class DensityUtil {

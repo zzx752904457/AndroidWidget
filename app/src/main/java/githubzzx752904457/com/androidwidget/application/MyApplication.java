@@ -1,4 +1,4 @@
-package githubzzx752904457.com.automoveimageview.application;
+package githubzzx752904457.com.androidwidget.application;
 
 import android.app.Application;
 

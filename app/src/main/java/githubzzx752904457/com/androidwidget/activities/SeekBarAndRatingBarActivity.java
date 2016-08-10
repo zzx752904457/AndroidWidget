@@ -1,4 +1,4 @@
-package githubzzx752904457.com.automoveimageview.activities;
+package githubzzx752904457.com.androidwidget.activities;
 
 import android.os.Build;
 import android.support.v7.app.AppCompatActivity;
@@ -9,7 +9,8 @@ import android.widget.ImageView;
 import android.widget.RatingBar;
 import android.widget.SeekBar;
 
-import githubzzx752904457.com.automoveimageview.R;
+import githubzzx752904457.com.androidwidget.R;
+
 
 public class SeekBarAndRatingBarActivity extends AppCompatActivity {
     private ImageView iv;

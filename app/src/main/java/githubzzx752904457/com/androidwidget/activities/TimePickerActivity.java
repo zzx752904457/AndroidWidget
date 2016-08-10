@@ -1,11 +1,12 @@
-package githubzzx752904457.com.automoveimageview.activities;
+package githubzzx752904457.com.androidwidget.activities;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.TimePicker;
 import android.widget.Toast;
 
-import githubzzx752904457.com.automoveimageview.R;
+import githubzzx752904457.com.androidwidget.R;
+
 
 public class TimePickerActivity extends AppCompatActivity {
     private TimePicker timePicker;

@@ -5,8 +5,8 @@ android {
     buildToolsVersion "24.0.0"
 
     defaultConfig {
-        applicationId "githubzzx752904457.com.automoveimageview"
-        minSdkVersion 14
+        applicationId "githubzzx752904457.com.androidwidget"
+        minSdkVersion 16
         targetSdkVersion 23
         versionCode 1
         versionName "1.0"

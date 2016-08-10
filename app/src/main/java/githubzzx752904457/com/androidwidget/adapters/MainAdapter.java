@@ -1,4 +1,4 @@
-package githubzzx752904457.com.automoveimageview.adapters;
+package githubzzx752904457.com.androidwidget.adapters;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -9,7 +9,8 @@ import android.widget.TextView;
 
 import java.util.List;
 
-import githubzzx752904457.com.automoveimageview.R;
+import githubzzx752904457.com.androidwidget.R;
+
 
 /**
  * Created by admin on 2016/8/9.

@@ -1,4 +1,4 @@
-package githubzzx752904457.com.automoveimageview.bean;
+package githubzzx752904457.com.androidwidget.bean;
 
 /**
  * Created by admin on 2016/8/3.
