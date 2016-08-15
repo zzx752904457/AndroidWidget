@@ -17,6 +17,7 @@ import githubzzx752904457.com.androidwidget.activities.DatePickerActivity;
 import githubzzx752904457.com.androidwidget.activities.NotificationActivity;
 import githubzzx752904457.com.androidwidget.activities.NumberPickerActivity;
 import githubzzx752904457.com.androidwidget.activities.PopupWindowActivity;
+import githubzzx752904457.com.androidwidget.activities.ProgressDialogActivity;
 import githubzzx752904457.com.androidwidget.activities.SearchViewActivity;
 import githubzzx752904457.com.androidwidget.activities.SeekBarAndRatingBarActivity;
 import githubzzx752904457.com.androidwidget.activities.StackViewActivity;
@@ -105,6 +106,10 @@ public class MainActivity extends AppCompatActivity {
                         intent = new Intent(getContext(), PopupWindowActivity.class);
                         startActivity(intent);
                         break;
+                    case 13:
+                        intent = new Intent(getContext(), ProgressDialogActivity.class);
+                        startActivity(intent);
+                        break;
                 }
             }
         });
@@ -125,6 +130,7 @@ public class MainActivity extends AppCompatActivity {
         resList.add("SearchView");
         resList.add("Notification");
         resList.add("PopupWindow");
+        resList.add("ProgressDialog");
     }
 
     private Context getContext(){
